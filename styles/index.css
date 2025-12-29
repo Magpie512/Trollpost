@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+* {
+  font-family: 'Uncial Antiqua', serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Georgia, serif;
+    background-color: #f9f5ec;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../images/map.png');
+    background-size: fill;
+}
